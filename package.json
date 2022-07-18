@@ -1,0 +1,17 @@
+{
+    "name": "netlify-gossjs",
+    "version": "0.0.1",
+    "scripts": {
+      "build": "netlify-lambda build xdemo"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/GossJS/netlify-x.git"
+    },
+    "author": "gossjs",
+    "devDependencies": {
+      "express": "^4.17.1",
+      "netlify-lambda": "^1.6.3",
+      "serverless-http": "^2.3.0"
+    }
+}
